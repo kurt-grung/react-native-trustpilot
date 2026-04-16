@@ -1,0 +1,6 @@
+appId: host.exp.exponent
+---
+# Verify the widget testbed loads and the widget renders
+- assertVisible: "Trustpilot Widget Testbed"
+- assertVisible: "Widget loaded successfully"
+- takeScreenshot: smoke_test_light

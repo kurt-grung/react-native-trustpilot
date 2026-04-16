@@ -1,0 +1,10 @@
+appId: host.exp.exponent
+---
+# Toggle dark mode on and screenshot
+- tapOn:
+    point: "335,126"
+- takeScreenshot: dark_mode_on
+# Toggle back to light and screenshot
+- tapOn:
+    point: "335,126"
+- takeScreenshot: dark_mode_off
